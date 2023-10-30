@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.css"
+        integrity="sha512-otONSJGv1l0LjJXcgyqi2MeKXtnthkiXAleeQjFJOKYcVD5u+mOuPb7xCnlsb74Ld+N0ONbP7KYRmW2/OWrvaA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <img src="./images/logo.png" alt="Your Logo" class="fixed-logo">
+    
+    <button class="sidebar-toggle">
+        <span id="language-change">FR/EN</span>
+        <i class="fas fa-bars"></i>
+    </button>
+    
+    <aside class="sidebar">
+    
+        <div class="sidebar-header">
+    
+            <!-- social media -->
+            <ul class="social-icons">
+                <li>
+                    <a href="https://www.twitter.com">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="https://www.twitter.com">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="https://www.twitter.com">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="https://www.twitter.com">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+    
+            </ul>
+    
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+        </div>
+    
+        <!-- links -->
+        <ul class="links">
+            <li id="accueil">
+                <a href="#section-accueil">ACCUEIL</a>
+            </li>
+            <li id="digital">
+                <a href="#section-digital">DIGITAL</a>
+            </li>
+            <li id="evenementiel">
+                <a href="#section-events">ÉVÉNEMENTIEL</a>
+            </li>
+            <li id="branding">
+                <a href="#section-branding">BRANDING</a>
+            </li>
+            <li id="contact">
+                <a href="#section-contact">CONTACT</a>
+            </li>
+        </ul>
+    
+        <!--Sidebar header-->
+    
+        <div class="sidebar-footer">
+            <p>POLITIQE DE CONFIDENTIALITÉ</p>
+            <p>MENTIONS LÉGALES</p>
+        </div>
+    
+    
+    </aside>
+    
+    <div id="fullpage">
+
+        <div class="section" id="section-accueil" data-dynamic-text="Section 1 Text">
+            
+
+            <div class="image-container">
+                <img src="./images/accueil.png" alt="Your Image">
+            </div>
+            
+            <div class="text-container">
+                <p>Chez nous, c’est un peu comme dans la cuisine des mousquetaires: on fourmille d’idées.<br>
+            
+                    Tu nous donnes ta recette,on t’en fait un plat gastro, d’un vin de table, on te sort une cuvée millésimée. Mais
+                    pour que
+                    tu comprennes bien ces tours de passe-passe, il faut qu’on t’en raconte un peu plus sur nous.<br>
+                    <br>
+                    Mikmak Studio est une agence de communication digitale parisienne qui a vu le jour en 2015. Chez nous, on est
+                    jeune et
+                    dynamique. Oui,on sait, ca fait,ca fait un peu militant républican.
+            
+                </p>
+            
+                <p>
+                    Dans notre agence, ce qu’on aime par-dessus tout. c’est expérimenter de nouvelles techniques créatives et
+                    innover
+                    toujours plus. Pour cela, on travaille avec plein de cuistots du monde entier(t’as déja mangé des sushis a
+                    Erevan? Tu
+                    rates quelque chose),pour accorder parfaitement vos projects.<br>
+                    <br>
+                    Dans notre agence, ce qu’on aime par-dessus tout. c’est expérimenter de nou- velles techniques créatives et
+                    innover
+                    toujours plus. Pour cela, on travaille avec plein de cuistots du monde entier(t’as déja mangé des sushis a
+                    Erevan? Tu
+                    rates quelque chose),pour accorder parfaitement vos projects.
+            
+                </p>
+            </div>
+        </div>
+        
+        <div class="section" id="section-digital" data-dynamic-text="Section 2 Text">
+            
+
+            <div class="image-container">
+                <img src="./images/digital.png" alt="Your Image">
+            </div>
+            
+            <button class="rounded-button">Voir Nos Projects</button>
+        </div>
+        <div class="section" id="section-events" data-dynamic-text="Section 3 Text">
+            
+            <div class="image-container">
+                <img src="./images/events.png" alt="Your Image">
+            </div>
+            
+            <button class="rounded-button">Voir Nos Projects</button>
+        </div>
+        <div class="section active-section" id="section-branding" data-dynamic-text="Section 4 Text">
+            
+            
+            <div class="image-container">
+                <img src="./images/branding.png" alt="Your Image">
+            </div>
+            
+            <button class="rounded-button">Voir Nos Projects</button>
+        </div>
+
+        <div class="section active-section" id="section-contact" data-dynamic-text="Section 5 Text">
+            
+            <div class="image-container-contact">
+                <img src="./images/contact.png" alt="Your Image">
+            </div>
+            
+
+            
+            <div class="contact-form-container">
+
+                <div class="contact-info">
+                    <p id="name"><b>MIKMAK STUDIO</b></p>
+                    <p id="adress">2 RUE DU FAUBOURG POISSONNIÉRE</p>
+                    <P id="city">75010 PARIS</P>
+                    <P id="country">FRANCE</P>
+                    <p id="tel">+33 (0) 1 45 28 70 83</p>
+            
+                    <ul class="contact-icons">
+                        <li>
+                            <a href="https://www.twitter.com">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+            
+                        <li>
+                            <a href="https://www.twitter.com">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+            
+                        <li>
+                            <a href="https://www.twitter.com">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+            
+                        <li>
+                            <a href="https://www.twitter.com">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+            
+                    </ul>
+            
+                </div>
+            
+                <div class="input-field">
+                    <div class="input-wrapper">
+                        <input type="text" class="rounded-input" placeholder="Nom">
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="email" class="rounded-input" placeholder="Email">
+                    </div>
+
+                    <button class="envoyer-button">Envoyer</button>
+                </div>
+            
+                <div class="message-input">
+                    <textarea id="messageInput" placeholder="MESSAGE"></textarea>
+                </div>
+
+            </div>
+
+            
+
+            
+        </div>
+
+
+    </div>
+
+   
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.js"
+        integrity="sha512-LGiXf+jHGTHcIybSsOWO3I/in+OObCkcEsWIZ7IyhzfD6RzD5qDUw2CK+JveuI7zTSEcDG//bIOvOpAJW2BWsg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script>
+         
+
+        </script>
+  
+
+   <script>
+    const toggleBtn = document.querySelector(".sidebar-toggle");
+    const closeBtn = document.querySelector(".close-btn");
+    const sidebar = document.querySelector(".sidebar");
+
+    toggleBtn.addEventListener("click", function (event) {
+        sidebar.classList.toggle("show-sidebar");
+        event.stopPropagation(); // Prevent the click event from propagating to the document
+    });
+
+    closeBtn.addEventListener("click", function () {
+        sidebar.classList.remove("show-sidebar");
+    });
+
+    // Add an event listener to the document to close the sidebar when clicking outside of it
+    document.addEventListener("click", function (event) {
+        if (!sidebar.contains(event.target) && !event.target.classList.contains("sidebar-toggle")) {
+            sidebar.classList.remove("show-sidebar");
+        }
+    });
+
+    // Prevent clicks inside the sidebar from closing it
+    sidebar.addEventListener("click", function (event) {
+        event.stopPropagation();
+    });
+
+</script>
+
+
+<script src="script.js"></script>
+<script src="./app.js"></script>
+    
+
+</body>
+</html>
+
+
+
