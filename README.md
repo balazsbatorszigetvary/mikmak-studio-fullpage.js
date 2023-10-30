@@ -7,4 +7,12 @@ his real world project is using fullpage.js to create a cohesive user experience
 ![image](https://github.com/balazsbatorszigetvary/mikmak-studio-fullpage.js/assets/129226735/53e9c88f-b1ea-403e-bb63-ab810b2f7b8a)
 
 
+![image](https://github.com/balazsbatorszigetvary/mikmak-studio-fullpage.js/assets/129226735/25db9ec9-3a93-4040-8f52-70ca12f55af6)
+
+
+![image](https://github.com/balazsbatorszigetvary/mikmak-studio-fullpage.js/assets/129226735/df6ce357-24b4-40a4-bf4e-e6efdb24ad1c)
+
+
+
+
 
